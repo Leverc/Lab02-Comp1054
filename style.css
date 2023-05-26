@@ -1,0 +1,33 @@
+/* Stephen Hill 200240336 */
+
+/* Class Selector  */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background: #bada55;
+    width: 100vw;
+}
+
+/* Tag Selector */
+h1, h2, h3, ul, footer {
+    color: #333;
+}
+
+/* ID Selector */
+#images {
+    display:flex;
+    flex-direction: row;
+    height: 300px;
+    width: 30%;
+}
+
+/* Pseudo Class Selector */
+
+h1:hover {
+    color:navy;
+}
+
+li:nth-child(odd) {
+    font-weight: bold;
+}
