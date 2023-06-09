@@ -36,7 +36,8 @@ main {
     flex-direction: row;
     height: 400px;
     width: 30%;
-    padding-left: 10vw;
+    padding-left: 30vw;
+    justify-content: center;
     
 }
 
